@@ -1,0 +1,43 @@
+PODS:
+  - Flutter (1.0.0)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - integration_test (0.0.1):
+    - Flutter
+  - snapkit_flutter_ios (0.0.1):
+    - Flutter
+    - SnapSDK/SCSDKCreativeKit (~> 2.4)
+  - SnapSDK/SCSDKCoreKit (2.4.0)
+  - SnapSDK/SCSDKCreativeKit (2.4.0):
+    - SnapSDK/SCSDKCoreKit
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - snapkit_flutter_ios (from `.symlinks/plugins/snapkit_flutter_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SnapSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  snapkit_flutter_ios:
+    :path: ".symlinks/plugins/snapkit_flutter_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  snapkit_flutter_ios: aecdd6a95421b23a4c54ee2baaa4c92397d7c039
+  SnapSDK: e832716ff024b17b448f9bca5feeac5a3daed3ff
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.1
