@@ -1,7 +1,7 @@
 name: snapkit_flutter_android
 description: An implementation for the Android platform of the Flutter `snapkit_flutter` plugin.
 repository: https://github.com/mingchaogui/SnapkitFlutter/tree/main/snapkit_flutter_android
-version: 2.1.0
+version: 2.1.1
 
 environment:
   sdk: '>=3.0.1 <4.0.0'

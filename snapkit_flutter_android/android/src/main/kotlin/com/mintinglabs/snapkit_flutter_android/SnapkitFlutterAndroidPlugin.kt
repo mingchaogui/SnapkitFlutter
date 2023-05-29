@@ -51,7 +51,7 @@ class SnapkitFlutterAndroidPlugin : FlutterPlugin, MethodCallHandler {
             "send" -> {
                 val sticker: SnapSticker?
                 try {
-                    val stickerJson = call.argument<Map<String, Any>>("snapSticker")
+                    val stickerJson = call.argument<Map<String, Any>>("sticker")
                     sticker = if (stickerJson != null) {
                         val filePath = stickerJson["filePath"] as String
                         val posX = stickerJson["posX"] as Double
